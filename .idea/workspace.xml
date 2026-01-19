@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83b75be8-7565-4826-aa8e-1304e03fb935" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/AnalyticalChemistry.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Co Cr 50 50.20260115.14.58.42.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Co(NO3)2 0.0376M.20260115.14.47.10.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Co(NO3)2 0.1128M.20260115.14.49.49.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Co(NO3)2 0.1504M.20260115.14.51.52.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Co(NO3)2.0.0752 M.20260115.14.17.50.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Co2+ Cr2+ Unknown.20260115.14.56.49.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Cr(NO3)3 0.01M.20260115.14.32.34.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Cr(NO3)3 0.03M.20260115.14.35.38.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Cr(NO3)3 0.04M.20260115.14.37.08.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Cr(NO3)3.0.02 M.20260115.14.14.58.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="38LTGF5Z4vfueWsIZLvuRhWnM0G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Lab1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/Keaton R/PycharmProjects/AnalyticalChemistry/CSV files",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Keaton R\PycharmProjects\AnalyticalChemistry\CSV files" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Keaton R\PycharmProjects\AnalyticalChemistry" />
+      <recent name="C:\Users\Keaton R\PycharmProjects\AnalyticalChemistry\.venv\Scripts" />
+      <recent name="C:\Users\Keaton R\PycharmProjects\AnalyticalChemistry\.venv" />
+      <recent name="C:\Users\Keaton R\PycharmProjects\AnalyticalChemistry\CSV files" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.308" />
+        <option value="bundled-python-sdk-ca5e2b39c7df-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.308" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83b75be8-7565-4826-aa8e-1304e03fb935" name="Changes" comment="" />
+      <created>1768577753452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768577753452</updated>
+      <workItem from="1768577754476" duration="144000" />
+      <workItem from="1768776674365" duration="8433000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AnalyticalChemistry$Lab1.coverage" NAME="Lab1 Coverage Results" MODIFIED="1768837150270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
