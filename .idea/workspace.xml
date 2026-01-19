@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83b75be8-7565-4826-aa8e-1304e03fb935" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AnalyticalChemistry.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Co Cr 50 50.20260115.14.58.42.CSV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Co(NO3)2 0.0376M.20260115.14.47.10.CSV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Co(NO3)2 0.1128M.20260115.14.49.49.CSV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Co(NO3)2 0.1504M.20260115.14.51.52.CSV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Co(NO3)2.0.0752 M.20260115.14.17.50.CSV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Co2+ Cr2+ Unknown.20260115.14.56.49.CSV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Cr(NO3)3 0.01M.20260115.14.32.34.CSV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Cr(NO3)3 0.03M.20260115.14.35.38.CSV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Cr(NO3)3 0.04M.20260115.14.37.08.CSV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/AChemFiles/Cr(NO3)3.0.02 M.20260115.14.14.58.CSV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="83b75be8-7565-4826-aa8e-1304e03fb935" name="Changes" comment="Plotting of csv UV Vis data" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +49,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -98,8 +81,17 @@
       <option name="presentableId" value="Default" />
       <updated>1768577753452</updated>
       <workItem from="1768577754476" duration="144000" />
-      <workItem from="1768776674365" duration="8433000" />
+      <workItem from="1768776674365" duration="8660000" />
     </task>
+    <task id="LOCAL-00001" summary="Plotting of csv UV Vis data">
+      <option name="closed" value="true" />
+      <created>1768837304197</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768837304197</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +107,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Plotting of csv UV Vis data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plotting of csv UV Vis data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
