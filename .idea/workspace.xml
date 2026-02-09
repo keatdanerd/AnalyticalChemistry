@@ -5,9 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83b75be8-7565-4826-aa8e-1304e03fb935" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/CalibrationCurvesCr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abs2%T.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles2/0.000066 M MVK in hexane.20260122.14.54.35.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles2/0.000066M MVK in water.20260122.15.16.39.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles2/0.0025 M MVK in hexane.20260122.14.52.02.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles2/0.025M MVK in water.20260122.15.15.14.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles2/6.6 x 10^-5 M MVK in hexane.20260122.14.59.58.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles2/Acentone in water.20260122.15.13.34.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles2/Benzene Vapor 2.20260122.13.57.43.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles2/Benzene Vapor.20260122.13.56.25.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles2/Benzene in MeOH.20260122.14.29.19.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles2/Hexanediene in water.20260122.15.11.21.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles2/Iodomethane in MeOH.20260122.14.43.48.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles2/Iodomethane in hexane.20260122.14.49.08.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles2/Phenol in MeOH.20260122.14.25.45.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/AChemFiles2/Sodium phenolate in MeOH.20260122.14.41.59.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2Calcs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinearfitCoCr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Raw Abs and T Data Lab 1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/CalibrationCurvesCoCr.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalibrationCurvesCo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalibrationCurvesCo.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalibrationCurvesCo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalibrationCurvesCr.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalibrationCurvesCr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/AChemFiles/Co Cr 50 50.20260115.14.58.42.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/Data/AChemFiles1/Co Cr 50 50.20260115.14.58.42.CSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/AChemFiles/Co(NO3)2 0.0376M.20260115.14.47.10.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/Data/AChemFiles1/Co(NO3)2 0.0376M.20260115.14.47.10.CSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/AChemFiles/Co(NO3)2 0.1128M.20260115.14.49.49.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/Data/AChemFiles1/Co(NO3)2 0.1128M.20260115.14.49.49.CSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/AChemFiles/Co(NO3)2 0.1504M.20260115.14.51.52.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/Data/AChemFiles1/Co(NO3)2 0.1504M.20260115.14.51.52.CSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/AChemFiles/Co(NO3)2.0.0752 M.20260115.14.17.50.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/Data/AChemFiles1/Co(NO3)2.0.0752 M.20260115.14.17.50.CSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/AChemFiles/Co2+ Cr2+ Unknown.20260115.14.56.49.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/Data/AChemFiles1/Co2+ Cr2+ Unknown.20260115.14.56.49.CSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/AChemFiles/Cr(NO3)3 0.01M.20260115.14.32.34.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/Data/AChemFiles1/Cr(NO3)3 0.01M.20260115.14.32.34.CSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/AChemFiles/Cr(NO3)3 0.03M.20260115.14.35.38.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/Data/AChemFiles1/Cr(NO3)3 0.03M.20260115.14.35.38.CSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/AChemFiles/Cr(NO3)3 0.04M.20260115.14.37.08.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/Data/AChemFiles1/Cr(NO3)3 0.04M.20260115.14.37.08.CSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/AChemFiles/Cr(NO3)3.0.02 M.20260115.14.14.58.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/Data/AChemFiles1/Cr(NO3)3.0.02 M.20260115.14.14.58.CSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StandardPlots.py" beforeDir="false" afterPath="$PROJECT_DIR$/StandardPlots.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StandardsCr.py" beforeDir="false" afterPath="$PROJECT_DIR$/StandardsCr.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +56,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "keatdanerd"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;keatdanerd&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/keatdanerd/AnalyticalChemistry.git",
-    "accountId": "40b389fc-5938-48ce-89e3-1f397c56c0d2"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/keatdanerd/AnalyticalChemistry.git&quot;,
+    &quot;accountId&quot;: &quot;40b389fc-5938-48ce-89e3-1f397c56c0d2&quot;
   }
-}]]></component>
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -47,43 +83,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.CalibrationCurvesCoCr.executor": "Run",
-    "Python.Lab1.executor": "Run",
-    "Python.StandardPlots.executor": "Run",
-    "Python.StandardsCr.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/Keaton R/PycharmProjects/AnalyticalChemistry/CSV files",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Abs2%T.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CalibrationCurvesCo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CalibrationCurvesCoCr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CalibrationCurvesCr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab2Calcs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LinearfitCoCr.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StandardPlots.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StandardsCr.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Keaton R/PycharmProjects/AnalyticalChemistry/Data/AChemFiles2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Keaton R\PycharmProjects\AnalyticalChemistry\Data\AChemFiles2" />
       <recent name="C:\Users\Keaton R\PycharmProjects\AnalyticalChemistry\CSV files" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Keaton R\PycharmProjects\AnalyticalChemistry\Lab2Figs" />
       <recent name="C:\Users\Keaton R\PycharmProjects\AnalyticalChemistry\" />
+      <recent name="C:\Users\Keaton R\PycharmProjects\AnalyticalChemistry\Lab1Figures" />
       <recent name="C:\Users\Keaton R\PycharmProjects\AnalyticalChemistry\Data\" />
       <recent name="C:\Users\Keaton R\PycharmProjects\AnalyticalChemistry" />
-      <recent name="C:\Users\Keaton R\PycharmProjects\AnalyticalChemistry\.venv\Scripts" />
-      <recent name="C:\Users\Keaton R\PycharmProjects\AnalyticalChemistry\.venv" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -102,7 +146,15 @@
       <option name="presentableId" value="Default" />
       <updated>1768577753452</updated>
       <workItem from="1768577754476" duration="144000" />
-      <workItem from="1768776674365" duration="18878000" />
+      <workItem from="1768776674365" duration="20375000" />
+      <workItem from="1769036989107" duration="10313000" />
+      <workItem from="1769108142069" duration="6272000" />
+      <workItem from="1769189757998" duration="5000" />
+      <workItem from="1769211265325" duration="528000" />
+      <workItem from="1769292543476" duration="3339000" />
+      <workItem from="1769466431511" duration="3784000" />
+      <workItem from="1769630000735" duration="3531000" />
+      <workItem from="1770325635800" duration="516000" />
     </task>
     <task id="LOCAL-00001" summary="Plotting of csv UV Vis data">
       <option name="closed" value="true" />
@@ -128,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768844237579</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update">
+      <option name="closed" value="true" />
+      <created>1768847829082</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768847829082</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,9 +222,15 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AnalyticalChemistry$Lab1.coverage" NAME="Lab1 Coverage Results" MODIFIED="1768837150270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AnalyticalChemistry$StandardPlots.coverage" NAME="StandardPlots Coverage Results" MODIFIED="1768843859617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AnalyticalChemistry$CalibrationCurvesCr.coverage" NAME="CalibrationCurvesCr Coverage Results" MODIFIED="1769122261852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AnalyticalChemistry$Abs2_T.coverage" NAME="Abs2%T Coverage Results" MODIFIED="1769124117744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AnalyticalChemistry$CalibrationCurvesCo.coverage" NAME="CalibrationCurvesCo Coverage Results" MODIFIED="1769122794062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AnalyticalChemistry$CalibrationCurvesCoCr.coverage" NAME="CalibrationCurvesCoCr Coverage Results" MODIFIED="1768847363936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AnalyticalChemistry$StandardPlots.coverage" NAME="StandardPlots Coverage Results" MODIFIED="1769125189793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AnalyticalChemistry$Lab1.coverage" NAME="Lab1 Coverage Results" MODIFIED="1770326020144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AnalyticalChemistry$Lab2.coverage" NAME="Lab2 Coverage Results" MODIFIED="1769470256068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AnalyticalChemistry$StandardsCr.coverage" NAME="StandardsCr Coverage Results" MODIFIED="1768843277529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AnalyticalChemistry$LinearfitCoCr.coverage" NAME="LinearfitCoCr Coverage Results" MODIFIED="1769124814922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AnalyticalChemistry$Lab2Calcs.coverage" NAME="Lab2Calcs Coverage Results" MODIFIED="1769633804946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

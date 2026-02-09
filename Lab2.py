@@ -6,10 +6,9 @@ import matplotlib.pyplot as plt
 #import all the csv files and name them
 # Format: 'Actual_Filename.csv' : 'My name'
 files_to_plot = {
-    'Data/AChemFiles1/Cr(NO3)3 0.01M.20260115.14.32.34.CSV': 'Cr 0.01M',
-    'Data/AChemFiles1/Cr(NO3)3.0.02 M.20260115.14.14.58.CSV': 'Cr 0.02M',
-    'Data/AChemFiles1/Cr(NO3)3 0.03M.20260115.14.35.38.CSV': 'Cr 0.03M',
-    'Data/AChemFiles1/Cr(NO3)3 0.04M.20260115.14.37.08.CSV': 'Cr 0.04M',
+    'Data/AChemFiles2/Phenol in MeOH.20260122.14.25.45.CSV' : 'Phenol',
+    'Data/AChemFiles2/Sodium phenolate in MeOH.20260122.14.41.59.CSV' : 'Sodium Phenoxide',
+
 }
 
 plt.figure(figsize=(10,10))
@@ -31,16 +30,18 @@ for filename, custom_label in files_to_plot.items():
     df_t['y'] = pd.to_numeric(df_t['y'], errors='coerce')
 
 
-
     # cutoff the messy data at the beginning of the plot
-    start_value = 260  # or whatever value
-    df_trimmed = df_t[df_t['x'] > start_value]
+    start_value = 240 # or whatever value
+    end_value = 400
+    df_trim = df_t[df_t['x'] > start_value]
+    df_trimmed = df_trim[df_trim['x'] < end_value]
+
 
     plt.plot(df_trimmed['x'], df_trimmed['y'], label=custom_label)
 
 #Final Plot
 plt.legend()
-plt.title('Absorbance vs Wavelength for the Cr Standards')
+plt.title('Absorbance Spectra of Sodium Phenoxide and Phenol')
 plt.xlabel('Wavelength (nm)')
 plt.ylabel('Absorbance (Abs)')
 plt.grid(True)
@@ -48,6 +49,6 @@ plt.grid(True)
 # --- PLOT SAVE COMMAND ---
 # dpi=300 makes it high resolution (good for papers/slides)
 # bbox_inches='tight' prevents axis labels from getting cut off
-#plt.savefig('OverlayedStandardCrSolns.png', dpi=300, bbox_inches='tight')
+#plt.savefig('phenol.png', dpi=300, bbox_inches='tight')
 
-#plt.show()
+plt.show()

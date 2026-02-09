@@ -1,6 +1,5 @@
 # Need to just copy and paste the other calibration .py file
 # and switch out the names and values in the dictionary
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -9,13 +8,15 @@ from scipy.optimize import curve_fit
 
 #Create a "Dictionary" of data
 Codata = {
-    'Concentration': [0.0376, 0.0752, 0.1128, 0.1504],
+    'Concentration': [0.0376, 0.0752, 0.1128, 0.1504], #M
     'Co_410': [],
     'Co_450': [],
     'Co_510': [],
     'Co_540': [],
     'Co_575': [],
     'Co_624': [],
+    '15%T': [0.8239, 0.8239, 0.8239, 0.8239], #This has been converted to Abs
+    '65%T': [0.187, 0.187, 0.187, 0.187],
 }
 
 #Convert to DataFrame
@@ -29,6 +30,8 @@ y_data_510 = df_manual['Co_510'].values
 y_data_540 = df_manual['Co_540'].values
 y_data_575 = df_manual['Co_575'].values
 y_data_624 = df_manual['Co_624'].values
+y_15 = df_manual['15%T'].values
+y_65 = df_manual['65%T'].values
 
 #Define the Exponential Function
 def exponential_model(x, a, b, c):
@@ -38,11 +41,11 @@ def exponential_model(x, a, b, c):
 # p0 is the "initial guess" for a, b, c (helps the math solver)
 initial_guess = [1, 1, 1]
 popt, pcov = curve_fit(exponential_model, x_data, y_data_410, p0=initial_guess, maxfev=5000)
-popt0, pcov = curve_fit(exponential_model, x_data, y_data_450, p0=initial_guess, maxfev=5000)
-popt1, pcov = curve_fit(exponential_model, x_data, y_data_510, p0=initial_guess, maxfev=5000)
-popt2, pcov = curve_fit(exponential_model, x_data, y_data_540, p0=initial_guess, maxfev=5000)
-popt3, pcov = curve_fit(exponential_model, x_data, y_data_575, p0=initial_guess, maxfev=5000)
-popt4, pcov = curve_fit(exponential_model, x_data, y_data_624, p0=initial_guess, maxfev=5000)
+popt0, pcov0 = curve_fit(exponential_model, x_data, y_data_450, p0=initial_guess, maxfev=5000)
+popt1, pcov1 = curve_fit(exponential_model, x_data, y_data_510, p0=initial_guess, maxfev=5000)
+popt2, pcov2 = curve_fit(exponential_model, x_data, y_data_540, p0=initial_guess, maxfev=5000)
+popt3, pcov3 = curve_fit(exponential_model, x_data, y_data_575, p0=initial_guess, maxfev=5000)
+popt4, pcov4 = curve_fit(exponential_model, x_data, y_data_624, p0=initial_guess, maxfev=5000)
 
 # popt contains your optimized [a, b, c] values
 a_opt, b_opt, c_opt = popt
@@ -69,6 +72,10 @@ y_trend_575 = exponential_model(x_trend, *popt3)
 y_trend_624 = exponential_model(x_trend, *popt4)
 
 # Plot
+plt.plot(df_manual['Concentration'], df_manual['15%T'], label='15 %T')
+plt.plot(df_manual['Concentration'], df_manual['65%T'], label='65 %T')
+
+
 plt.plot(df_manual['Concentration'], df_manual['Co_410'], label='Co 410nm')
 plt.plot(df_manual['Concentration'], df_manual['Co_450'], label='Co 450nm')
 plt.plot(df_manual['Concentration'], df_manual['Co_510'], label='Co 510nm')
@@ -83,15 +90,17 @@ plt.plot(x_trend, y_trend_575, color='magenta', linestyle=':', label='Co 575nm F
 plt.plot(x_trend, y_trend_624, color='brown', linestyle=':', label='Co 624nm Fit')
 plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', borderaxespad=0.)
 plt.grid(True)
-plt.title('Co Calibration Curves')
+plt.title('Co %T Calibration Curves')
 plt.xlabel('Concentration (M)')
-plt.ylabel('Absorbance (Abs)')
+plt.ylabel('%Transmittance')
 plt.tight_layout()
 
 # --- PLOT SAVE COMMAND ---
 # dpi=300 makes it high resolution (good for papers/slides)
 # bbox_inches='tight' prevents axis labels from getting cut off
-#plt.savefig('CoCalibrationCurves.png', dpi=300, bbox_inches='tight')
+#plt.savefig('CoExpCalibrationCurves.png', dpi=300, bbox_inches='tight')
 
 
-#plt.show()
+plt.show()
+
+

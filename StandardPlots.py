@@ -6,10 +6,8 @@ import matplotlib.pyplot as plt
 #import all the csv files and name them
 # Format: 'Actual_Filename.csv' : 'My name'
 files_to_plot = {
-    'Data/AChemFiles/Co(NO3)2.0.0752 M.20260115.14.17.50.CSV': 'Co 0.0752M',
-    'Data/AChemFiles/Co(NO3)2 0.0376M.20260115.14.47.10.CSV': 'Co 0.0376M',
-    'Data/AChemFiles/Co(NO3)2 0.1128M.20260115.14.49.49.CSV': 'Co 0.1128M',
-    'Data/AChemFiles/Co(NO3)2 0.1504M.20260115.14.51.52.CSV': 'Co 0.1504M',
+    'Data/AChemFiles1/Co2+ Cr2+ Unknown.20260115.14.56.49.CSV' : 'Unknown',
+    'Data/AChemFiles1/Co Cr 50 50.20260115.14.58.42.CSV' : '50/50',
 }
 
 plt.figure(figsize=(10,10))
@@ -39,7 +37,7 @@ for filename, custom_label in files_to_plot.items():
 
 #Final Plot
 plt.legend()
-plt.title('Absorbance vs Wavelength for the Co Standards')
+plt.title('Absorbance of Unknown and 50/50 Cr/Co Solutions')
 plt.xlabel('Wavelength (nm)')
 plt.ylabel('Absorbance (Abs)')
 plt.grid(True)
@@ -47,6 +45,6 @@ plt.grid(True)
 # --- PLOT SAVE COMMAND ---
 # dpi=300 makes it high resolution (good for papers/slides)
 # bbox_inches='tight' prevents axis labels from getting cut off
-#plt.savefig('OverlayedStandardCoSolns.png', dpi=300, bbox_inches='tight')
+plt.savefig('OverlayedUnk5050CrCoSolns.png', dpi=300, bbox_inches='tight')
 
-#plt.show()
+plt.show()

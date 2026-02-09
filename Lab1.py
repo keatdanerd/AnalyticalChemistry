@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 my_cols = range(611)
 
 # Import dataframe
-df = pd.read_csv('Data/AChemFiles/Co2+ Cr2+ Unknown.20260115.14.56.49.CSV', header=None, names=my_cols)
+df = pd.read_csv('Data/AChemFiles1/Co(NO3)2.0.0752 M.20260115.14.17.50.CSV', header=None, names=my_cols)
 print("Shape:", df.shape) #is (3, 611)
 print(df.iloc[:, 0]) #reveals that row 0 has text
 
@@ -39,6 +39,6 @@ plt.grid(True)
 # --- PLOT SAVE COMMAND ---
 # dpi=300 makes it high resolution (good for papers/slides)
 # bbox_inches='tight' prevents axis labels from getting cut off
-plt.savefig('UnkCoCr.png', dpi=300, bbox_inches='tight')
+#plt.savefig('Co0.0752M.png', dpi=300, bbox_inches='tight')
 
 plt.show()
